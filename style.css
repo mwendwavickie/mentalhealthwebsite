@@ -64,6 +64,15 @@ img{
     padding-bottom: 50px;
 
 }
-
+.social-links ul{
+    list-style: none;
+}
+.social-links a{
+    color: #08605f;
+    transition: color 0.3s ease-in-out;
+}
+.social-links :hover{
+    color:blue;
+}
 
 
