@@ -15,17 +15,23 @@
     <!--Navigation section-->
     <nav class="navbar navbar-expand-md  navbar-dark bg-dark fixed-top ">
         <div class="container">
-            <a class="navbar-brand" href="#">Logo</a>
+            <a class="navbar-brand" href="#">
+                <img src="" alt="logo" width="100" height="auto" class="inline-block align-text-top">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-house"></i>
+                            Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#about">
+                            <i class="fa fa-circle-info "></i>
+                            About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#resources">Resources</a>
@@ -34,14 +40,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#login">Login</a>
-                    </li>
-                    <li class="nav-item ">
-                        <button id="signup" class="btn btn-outline-success btn-sm ">
-                            <a class="nav-link" href="#signup">SignUp</a>
-                        </button>    
-                    </li>
+                   
                 </ul>
             </div>
         </div>
@@ -51,11 +50,13 @@
     <section class="landing-page">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-left">
-                    <img src="mental-health-2019924_1280.jpg" alt="backgroundpicture">
+                <div class="col-lg-12 text-center">
+                    <img src="images/mental-health-2019924_1280.jpg" alt="backgroundpicture">
                     <h1>Welcome to Free Minds</h1>
                     <p>We are a Mental Health Support Network here to provide you with the support you need.</p>
-                    <a href="#resources" class="btn btn-primary btn-lg btn-outline-round">Get Started</a>
+                    <a href="#resources" class="btn btn-info btn-lg ">Get Started</a>
+                    
+                        <img src="images/mid-shot-friends-near-food-truck-posing_23-2148757291.jpg">
                     
                 </div>
             </div>
@@ -69,10 +70,12 @@
                 <div class="col-lg-6">
                     <h2>About Us</h2>
                     <p>At Free Minds, our mission is to provide compassionate support, resources, and guidance to individuals navigating mental health challenges. We believe that everyone deserves access to quality mental health care and support, regardless of their background or circumstances. Our goal is to foster a supportive community where individuals can find understanding, encouragement, and hope on their journey towards mental well-being</p>
-                </div>
-                <div class="col-lg-6">
                     <h3>Our Approach</h3>
                     <p>Peer support<br>Professional guidance<br>Educational resources.</p>
+                </div>
+                <div class="col-lg-6 justify-content-end">
+                    <img src="images/undraw_Mindfulness_8gqa.png" alt="mindfulness">
+                    
                 </div>
             </div>
         </div>
@@ -85,32 +88,32 @@
             <div class="row mb-5">
                 <div class="col-lg-4">
                     <div class="card">
-                        <img src="diverse-group-friends-female-therapist-with-tablet-group-therapy-session_13339-343240.jpg" class="card-img-top" alt="support group"width="auto">
+                        <img src="images/diverse-group-friends-female-therapist-with-tablet-group-therapy-session_13339-343240.jpg" class="card-img-top" alt="support group"width="auto">
                         <div class="card-body">
                             <h5 class="card-title">Support Groups.</h5>
                             <p class="card-text">Find online or local support group for various mental health conditions.</p>
-                            <a href="#" class="btn btn-primary">Find more</a>
+                            <a href="#" class="btn btn-info">Find more</a>
 
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                 <div class="card">
-                    <img src="person-sharing-feelings-emotions-therapy-session_23-2151074000.jpg" class="card-img-top" alt="therapy session">
+                    <img src="images/person-sharing-feelings-emotions-therapy-session_23-2151074000.jpg" class="card-img-top" alt="therapy session">
                     <div class="card-body">
                         <h5 class="card-title">Therapists.</h5>
                         <p class="card-text">Search for licensed therapists.</p>
-                        <a href="#" class="btn btn-primary">Find more</a>
+                        <a href="#" class="btn btn-info">Find more</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="card">
-                    <img src="beautiful-black-girl-is-engaged-gym_1157-24008.jpg" class="card-img-top" alt="working out">
+                    <img src="images/beautiful-black-girl-is-engaged-gym_1157-24008.jpg" class="card-img-top" alt="working out">
                     <div class="card-body">
                         <h5 class="card-title">Self-Help resources.</h5>
                         <p class="card-text">Acess videos and articles for coping strategies.</p>
-                        <a href="#" class="btn btn-primary">Find more</a>
+                        <a href="#" class="btn btn-info">Find more</a>
                     </div>
                 </div>
             </div>
@@ -119,73 +122,61 @@
     </section>
 
     <!--Contacts section-->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <div class="row">
-                <div class="col-6">
-                    <!--contact form -->
-                    <form id="contact-form">
-                        <div class="form-group mb-2">
-                            <label for="name">Name:</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
-                        </div>
-                        <div class="form-group mb-2">
-                            <label for="email">Email:</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
-                        </div>
-                        <div class="form-group mb-2">
-                            <label for="message">Enter your message:</label>
-                            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary mt-5 mb-5">Submit</button>                
-                    </form>
-                </div>
 
-                <div class="col-6 text-center">
-                    <h5>Socials</h5>
-                        <div class="social-links">
-                            <ul>
-                                <li><a href="https://www.instagram.com" target="_blank" class="instagram-link">
-                                    <i class="fa fa-instagram fa-2x"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.facebook.com" target="_blank" class="facebook-link">
-                                    <i class="fa fa-facebook fa-2x"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://twitter.com/" target="_blank" class="twitter-link">
-                                    <i class="fa fa-twitter fa-2x"></i>
-                                    </a>
-                                </li>
-                                <li><a href="+123 456 576">
-                                    <i class="fa fa-phone fa-2x"></i>
-                                <span>+123 456 789</span></a>
-                                </li>
-                                <li><a href="https://mail.google.com/mail">
-                                    <i class="fa fa-envelope fa-2x"></i>
-                                <span>freeminds@gmail.com</span></a>
-                                </li>
-                            </ul>    
-                        </div>
 
-                </div>
-            </div>
+    <section id="contact" class="contact">
+        <div class="container mt-5 mb-5">
+            <h2 class="mb-4 justify-content-center">Contact Us</h2>
+            <p>Get in touch with us to know how we can help </p>
             
-        </div>
-    </section>
+            <div class="row">
+              <div class="col-md-6">
+                <form action="#" method="post">
+                  <div class="form-group mb-2">
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                  </div>
+
+                  <div class="form-group mb-2">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                  </div>
+
+                  <div class="form-group mb-2">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Your Message" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                </form>
+              </div>
+              <div class="col-md-6">
+                <div class="social-links">
+                    <p><i class="fas fa-phone"></i> <a href="tel:+1234567890">+1 234 567 890</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@example.com">freeminds@gmail.com</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> <a href="#">Nairobi,Kenya</a></p>
+                    <img src="images/undraw_Contact_us_re_4qqt.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+</section>
+
+                
 
     <!--Footer section-->
-    <footer class="bg-dark text-white fixed-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <p>&copy;2024 Free Minds</p>
-                </div>            
-            </div>
+    <footer class="text-center bg-dark fixed-bottom">
+        <div class="container d-flex align-items-center">
+          <div class="mr-auto text-white">
+            <p>© 2024 Free Minds. All rights reserved.</p>
+          </div>
+          <div class="social-icons justify-content-end">
+            <a href="https://www.facebook.com/example" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.twitter.com/example" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.instagram.com/example" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+          </div>
         </div>
-    </footer>
+      </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+ 
 </body>
 </html>
